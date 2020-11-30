@@ -61,3 +61,7 @@ crashlytics-build.properties
 # Exceptions
 !*.dll
 !*.obj
+
+# Wwise
+/pathToWwiseProject/Originals/SFX/*.akd
+/pathToWwiseProject/.cache/
