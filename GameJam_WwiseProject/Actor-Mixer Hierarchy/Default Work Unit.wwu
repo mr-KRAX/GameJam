@@ -427,6 +427,8 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Folder Name="UI" ID="{D3B72D4B-EC1F-42F4-BE3F-D5E07B0ED6CD}" ShortID="459976058"/>
+				<Folder Name="Quiz" ID="{844BF8AB-C831-45E0-902F-954196BA3796}" ShortID="557898556"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
