@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1030909713">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\Foot_Player" DurationType="OneShot" DurationMin="1.111973" DurationMax="1.334331">
+					<IncludedMemoryFiles>
+						<File Id="23129057" Language="SFX">
+							<ShortName>footsteps\carpet\fs_carpet-003.wav</ShortName>
+							<Path>SFX\footsteps\carpet\fs_carpet-003_10C4C929.wem</Path>
+						</File>
+						<File Id="124671959" Language="SFX">
+							<ShortName>footsteps\wood\fs_wood-004.wav</ShortName>
+							<Path>SFX\footsteps\wood\fs_wood-004_10C4C929.wem</Path>
+						</File>
+						<File Id="231076949" Language="SFX">
+							<ShortName>footsteps\wood\fs_wood-002.wav</ShortName>
+							<Path>SFX\footsteps\wood\fs_wood-002_10C4C929.wem</Path>
+						</File>
+						<File Id="264173013" Language="SFX">
+							<ShortName>concretefootsteps\concretefootstep-005.wav</ShortName>
+							<Path>SFX\concretefootsteps\concretefootstep-005_10C4C929.wem</Path>
+						</File>
+						<File Id="301825278" Language="SFX">
+							<ShortName>concretefootsteps\concretefootstep-003.wav</ShortName>
+							<Path>SFX\concretefootsteps\concretefootstep-003_10C4C929.wem</Path>
+						</File>
+						<File Id="442549924" Language="SFX">
+							<ShortName>footsteps\carpet\fs_carpet-005.wav</ShortName>
+							<Path>SFX\footsteps\carpet\fs_carpet-005_10C4C929.wem</Path>
+						</File>
+						<File Id="475397973" Language="SFX">
+							<ShortName>footsteps\wood\fs_wood-003.wav</ShortName>
+							<Path>SFX\footsteps\wood\fs_wood-003_10C4C929.wem</Path>
+						</File>
+						<File Id="683403168" Language="SFX">
+							<ShortName>footsteps\carpet\fs_carpet-002.wav</ShortName>
+							<Path>SFX\footsteps\carpet\fs_carpet-002_10C4C929.wem</Path>
+						</File>
+						<File Id="749357755" Language="SFX">
+							<ShortName>footsteps\carpet\fs_carpet-001.wav</ShortName>
+							<Path>SFX\footsteps\carpet\fs_carpet-001_10C4C929.wem</Path>
+						</File>
+						<File Id="759723383" Language="SFX">
+							<ShortName>footsteps\carpet\fs_carpet-004.wav</ShortName>
+							<Path>SFX\footsteps\carpet\fs_carpet-004_10C4C929.wem</Path>
+						</File>
+						<File Id="854819160" Language="SFX">
+							<ShortName>concretefootsteps\concretefootstep-002.wav</ShortName>
+							<Path>SFX\concretefootsteps\concretefootstep-002_10C4C929.wem</Path>
+						</File>
+						<File Id="873499890" Language="SFX">
+							<ShortName>concretefootsteps\concretefootstep-004.wav</ShortName>
+							<Path>SFX\concretefootsteps\concretefootstep-004_10C4C929.wem</Path>
+						</File>
+						<File Id="905285825" Language="SFX">
+							<ShortName>footsteps\wood\fs_wood-005.wav</ShortName>
+							<Path>SFX\footsteps\wood\fs_wood-005_10C4C929.wem</Path>
+						</File>
+						<File Id="942021867" Language="SFX">
+							<ShortName>footsteps\wood\fs_wood-001.wav</ShortName>
+							<Path>SFX\footsteps\wood\fs_wood-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{65BA9092-C39E-4810-B053-49667239A025}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{65BA9092-C39E-4810-B053-49667239A025}">
+							<Media>
+								<File Id="854819160"/>
+								<File Id="301825278"/>
+								<File Id="873499890"/>
+								<File Id="264173013"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1F18CF86-F831-4E93-A6B8-AADE19A1A332}">
+							<Media>
+								<File Id="749357755"/>
+								<File Id="683403168"/>
+								<File Id="23129057"/>
+								<File Id="759723383"/>
+								<File Id="442549924"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{EDD99172-A177-4DDA-8878-263BF5FE029A}">
+							<Media>
+								<File Id="942021867"/>
+								<File Id="231076949"/>
+								<File Id="475397973"/>
+								<File Id="124671959"/>
+								<File Id="905285825"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Materials\Concrete"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\Materials\Carpet"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Materials\Wood"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

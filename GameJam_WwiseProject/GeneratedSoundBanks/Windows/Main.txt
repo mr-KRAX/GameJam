@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1894362767	Foot_Player			\Default Work Unit\Foot_Player	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4050929301	Materials			\Default Work Unit\Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Materials			
+	2058049674	Wood	Materials			
+	2412606308	Carpet	Materials			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23129057	fs_carpet-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\carpet\fs_carpet-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-003		196216
+	124671959	fs_wood-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\wood\fs_wood-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-004		221856
+	231076949	fs_wood-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\wood\fs_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-002		230280
+	264173013	fs_concrete_005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\concretefootsteps\concretefootstep-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_005		210420
+	301825278	fs_concrete_003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\concretefootsteps\concretefootstep-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_003		201772
+	442549924	fs_carpet-005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\carpet\fs_carpet-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-005		215596
+	475397973	fs_wood-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\wood\fs_wood-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-003		225144
+	683403168	fs_carpet-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\carpet\fs_carpet-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-002		202372
+	749357755	fs_carpet-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\carpet\fs_carpet-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-001		205316
+	759723383	fs_carpet-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\carpet\fs_carpet-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-004		205348
+	854819160	fs_concrete_002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\concretefootsteps\concretefootstep-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_002		203392
+	873499890	fs_concrete_004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\concretefootsteps\concretefootstep-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_004		202080
+	905285825	fs_wood-005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\wood\fs_wood-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-005		218604
+	942021867	fs_wood-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Windows\SFX\footsteps\wood\fs_wood-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-001		235440
+
