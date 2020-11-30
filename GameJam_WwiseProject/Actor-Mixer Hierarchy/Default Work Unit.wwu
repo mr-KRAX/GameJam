@@ -1,6 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{29412349-8E05-4CE5-BD9F-E954585D7269}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{29412349-8E05-4CE5-BD9F-E954585D7269}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{29412349-8E05-4CE5-BD9F-E954585D7269}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Footsteps" ID="{74A8297A-EE00-4FFF-A1CC-B63A4185D782}" ShortID="706645624">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Concrete" ID="{65BA9092-C39E-4810-B053-49667239A025}" WorkUnitID="{F42F3FCD-D279-4D68-A057-A95EC6ADAE2C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Materials" ID="{B01663F0-563C-4B7C-9F47-18AAC68AD4DA}" WorkUnitID="{F42F3FCD-D279-4D68-A057-A95EC6ADAE2C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="concretefootsteps" ID="{92DA6E09-1560-4734-9E0A-D07A4FEA1B2F}" ShortID="227393440">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="concretefootstep-001" ID="{AC48F291-E669-4269-94EE-CD390543EA6F}" ShortID="443392816">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="concretefootstep-001" ID="{71BB39DA-B35C-476A-B71E-20406106F3F0}">
+											<Language>SFX</Language>
+											<AudioFile>concretefootsteps\concretefootstep-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="774554274"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="concretefootstep-001" ID="{71BB39DA-B35C-476A-B71E-20406106F3F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="concretefootstep-002" ID="{665B9D41-4AD8-4EB4-BCD2-4C898246BC18}" ShortID="542008294">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="concretefootstep-002" ID="{0D636E57-9020-4AB1-92F1-22F25374A83A}">
+											<Language>SFX</Language>
+											<AudioFile>concretefootsteps\concretefootstep-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854819160"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="concretefootstep-002" ID="{0D636E57-9020-4AB1-92F1-22F25374A83A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="concretefootstep-003" ID="{32BE4065-FE22-4965-8477-F73CA753C351}" ShortID="749031120">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="concretefootstep-003" ID="{194C89CF-2622-4540-B8FF-433BA67A0C80}">
+											<Language>SFX</Language>
+											<AudioFile>concretefootsteps\concretefootstep-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="301825278"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="concretefootstep-003" ID="{194C89CF-2622-4540-B8FF-433BA67A0C80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="concretefootstep-004" ID="{DE2CDCDF-B1CB-4090-B291-6057BA710834}" ShortID="1022578170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="concretefootstep-004" ID="{1191F833-C976-4197-B00A-3E8EDA25B53A}">
+											<Language>SFX</Language>
+											<AudioFile>concretefootsteps\concretefootstep-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="873499890"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="concretefootstep-004" ID="{1191F833-C976-4197-B00A-3E8EDA25B53A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="concretefootstep-005" ID="{4CD50829-19ED-4566-A5FB-9AACD99CF207}" ShortID="827142783">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="concretefootstep-005" ID="{C44E29F1-FED2-4A7A-9B68-75BB240DC5BD}">
+											<Language>SFX</Language>
+											<AudioFile>concretefootsteps\concretefootstep-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="264173013"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="concretefootstep-005" ID="{C44E29F1-FED2-4A7A-9B68-75BB240DC5BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="concretefootsteps" ID="{92DA6E09-1560-4734-9E0A-D07A4FEA1B2F}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Concrete" ID="{65BA9092-C39E-4810-B053-49667239A025}"/>
+								<ItemList>
+									<ItemRef Name="concretefootsteps" ID="{92DA6E09-1560-4734-9E0A-D07A4FEA1B2F}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
