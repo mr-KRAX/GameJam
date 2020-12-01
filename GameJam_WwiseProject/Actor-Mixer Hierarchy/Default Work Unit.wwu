@@ -4,6 +4,21 @@
 		<WorkUnit Name="Default Work Unit" ID="{29412349-8E05-4CE5-BD9F-E954585D7269}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="Footsteps" ID="{74A8297A-EE00-4FFF-A1CC-B63A4185D782}" ShortID="706645624">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D4BF289E-D2FE-4F2C-9E88-C1D51EC06347}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="6"/>
+											<Property Name="Min" Type="Real64" Value="-6"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
@@ -141,7 +156,19 @@
 										<ModifierInfo>
 											<Modifier Name="" ID="{10D4B3F4-91EE-4219-8F7F-175759851858}">
 												<PropertyList>
+													<Property Name="Min" Type="Real64" Value="-6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BE235444-B88A-43B7-9F22-BC80F11FDE91}">
+												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
 													<Property Name="Min" Type="Real64" Value="-6"/>
 												</PropertyList>
 											</Modifier>
@@ -500,6 +527,21 @@
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="UI_select" ID="{D421CDD5-7821-45CD-A3D8-834580977043}" ShortID="196519588">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{872A8BA2-FFAB-43A4-9593-9F2E6C89BED7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+													<Property Name="Min" Type="Real64" Value="-6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
@@ -862,6 +904,21 @@
 					</ChildrenList>
 				</Folder>
 				<RandomSequenceContainer Name="stab" ID="{FE419710-B492-4F4B-98C7-5C2849A19256}" ShortID="800523080">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5C818556-9652-4A61-8BC0-FE93C1678882}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="6"/>
+											<Property Name="Min" Type="Real64" Value="-6"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
