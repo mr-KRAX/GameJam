@@ -16,12 +16,48 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1030909713">
+		<SoundBank Id="3161908922" Language="SFX" Hash="481849482">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\Foot_Player" DurationType="OneShot" DurationMin="1.111973" DurationMax="1.334331">
+				<Event Id="4230375851" Name="AnswerRight" ObjectPath="\Events\Default Work Unit\Quiz\AnswerRight" DurationType="OneShot" DurationMin="2.459796" DurationMax="2.459796">
+					<IncludedMemoryFiles>
+						<File Id="735135065" Language="SFX">
+							<ShortName>Quiz\RightAnswer.wav</ShortName>
+							<Path>SFX\Quiz\RightAnswer_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1383581158" Name="AnswerWrong" ObjectPath="\Events\Default Work Unit\Quiz\AnswerWrong" DurationType="OneShot" DurationMin="1.863651" DurationMax="1.863651">
+					<IncludedMemoryFiles>
+						<File Id="1018317239" Language="SFX">
+							<ShortName>Quiz\WrongAnswer.wav</ShortName>
+							<Path>SFX\Quiz\WrongAnswer_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4141430720" Name="Cheer" ObjectPath="\Events\Default Work Unit\Crowd\Cheer" DurationType="OneShot" DurationMin="1.863651" DurationMax="8.580000">
+					<IncludedMemoryFiles>
+						<File Id="420837309" Language="SFX">
+							<ShortName>Crowd\Cheer\CrowdCheer-003.wav</ShortName>
+							<Path>SFX\Crowd\Cheer\CrowdCheer-003_10C4C929.wem</Path>
+						</File>
+						<File Id="655261759" Language="SFX">
+							<ShortName>Crowd\Cheer\CrowdCheer-002.wav</ShortName>
+							<Path>SFX\Crowd\Cheer\CrowdCheer-002_10C4C929.wem</Path>
+						</File>
+						<File Id="878497001" Language="SFX">
+							<ShortName>Crowd\Cheer\CrowdCheer-001.wav</ShortName>
+							<Path>SFX\Crowd\Cheer\CrowdCheer-001_10C4C929.wem</Path>
+						</File>
+						<File Id="1001610876" Language="SFX">
+							<ShortName>Crowd\Cheer\CrowdCheer-004.wav</ShortName>
+							<Path>SFX\Crowd\Cheer\CrowdCheer-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\Foot_Player" DurationType="OneShot" DurationMin="1.108126" DurationMax="1.338964">
 					<IncludedMemoryFiles>
 						<File Id="23129057" Language="SFX">
 							<ShortName>footsteps\carpet\fs_carpet-003.wav</ShortName>
@@ -109,6 +145,82 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="1004479608" Name="Gasp" ObjectPath="\Events\Default Work Unit\Crowd\Gasp" DurationType="OneShot" DurationMin="1.651111" DurationMax="2.135669">
+					<IncludedMemoryFiles>
+						<File Id="363305343" Language="SFX">
+							<ShortName>Crowd\Gasp\gasp-001.wav</ShortName>
+							<Path>SFX\Crowd\Gasp\gasp-001_10C4C929.wem</Path>
+						</File>
+						<File Id="436781130" Language="SFX">
+							<ShortName>Crowd\Gasp\gasp-003.wav</ShortName>
+							<Path>SFX\Crowd\Gasp\gasp-003_10C4C929.wem</Path>
+						</File>
+						<File Id="1020413822" Language="SFX">
+							<ShortName>Crowd\Gasp\gasp-002.wav</ShortName>
+							<Path>SFX\Crowd\Gasp\gasp-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1097468465" Name="Laughter" ObjectPath="\Events\Default Work Unit\Crowd\Laughter" DurationType="OneShot" DurationMin="5.140771" DurationMax="5.447868">
+					<IncludedMemoryFiles>
+						<File Id="103108841" Language="SFX">
+							<ShortName>Crowd\Laughter\Laughter-003.wav</ShortName>
+							<Path>SFX\Crowd\Laughter\Laughter-003_10C4C929.wem</Path>
+						</File>
+						<File Id="191438108" Language="SFX">
+							<ShortName>Crowd\Laughter\Laughter-001.wav</ShortName>
+							<Path>SFX\Crowd\Laughter\Laughter-001_10C4C929.wem</Path>
+						</File>
+						<File Id="751644510" Language="SFX">
+							<ShortName>Crowd\Laughter\Laughter-002.wav</ShortName>
+							<Path>SFX\Crowd\Laughter\Laughter-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="553997889" Name="stab" ObjectPath="\Events\Default Work Unit\stab" DurationType="OneShot" DurationMin="1.165523" DurationMax="1.410504">
+					<IncludedMemoryFiles>
+						<File Id="637947754" Language="SFX">
+							<ShortName>stab\stab-003.wav</ShortName>
+							<Path>SFX\stab\stab-003_10C4C929.wem</Path>
+						</File>
+						<File Id="751797262" Language="SFX">
+							<ShortName>stab\stab-002.wav</ShortName>
+							<Path>SFX\stab\stab-002_10C4C929.wem</Path>
+						</File>
+						<File Id="953523439" Language="SFX">
+							<ShortName>stab\stab-001.wav</ShortName>
+							<Path>SFX\stab\stab-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="199363535" Name="UIHover" ObjectPath="\Events\Default Work Unit\UI\UIHover" DurationType="OneShot" DurationMin="1.021406" DurationMax="1.021406">
+					<IncludedMemoryFiles>
+						<File Id="397308475" Language="SFX">
+							<ShortName>UI\UI_Hover\UI_Hover.wav</ShortName>
+							<Path>SFX\UI\UI_Hover\UI_Hover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1816659375" Name="UISelect" ObjectPath="\Events\Default Work Unit\UI\UISelect" DurationType="OneShot" DurationMin="1.057282" DurationMax="1.104228">
+					<IncludedMemoryFiles>
+						<File Id="611622974" Language="SFX">
+							<ShortName>UI\UI_select\UI_select-002.wav</ShortName>
+							<Path>SFX\UI\UI_select\UI_select-002_10C4C929.wem</Path>
+						</File>
+						<File Id="650741517" Language="SFX">
+							<ShortName>UI\UI_select\UI_select-003.wav</ShortName>
+							<Path>SFX\UI\UI_select\UI_select-003_10C4C929.wem</Path>
+						</File>
+						<File Id="761654058" Language="SFX">
+							<ShortName>UI\UI_select\UI_select-001.wav</ShortName>
+							<Path>SFX\UI\UI_select\UI_select-001_10C4C929.wem</Path>
+						</File>
+						<File Id="969311148" Language="SFX">
+							<ShortName>UI\UI_select\UI_select-004.wav</ShortName>
+							<Path>SFX\UI\UI_select\UI_select-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
 			<SwitchGroups>

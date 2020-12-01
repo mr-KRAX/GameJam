@@ -13,7 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ANSWERRIGHT = 4230375851U;
+        static const AkUniqueID ANSWERWRONG = 1383581158U;
+        static const AkUniqueID CHEER = 4141430720U;
         static const AkUniqueID FOOT_PLAYER = 1894362767U;
+        static const AkUniqueID GASP = 1004479608U;
+        static const AkUniqueID LAUGHTER = 1097468465U;
+        static const AkUniqueID STAB = 553997889U;
+        static const AkUniqueID UIHOVER = 199363535U;
+        static const AkUniqueID UISELECT = 1816659375U;
     } // namespace EVENTS
 
     namespace SWITCHES
