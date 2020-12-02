@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="481849482">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4068446243">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -178,7 +178,43 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="553997889" Name="stab" ObjectPath="\Events\Default Work Unit\stab" DurationType="OneShot" DurationMin="1.165523" DurationMax="1.410504">
+				<Event Id="4209927537" Name="paperpickup" ObjectPath="\Events\Default Work Unit\paper\paperpickup" DurationType="OneShot" DurationMin="1.344512" DurationMax="1.378912">
+					<IncludedMemoryFiles>
+						<File Id="175158082" Language="SFX">
+							<ShortName>Paper\pickup\pickup-003.wav</ShortName>
+							<Path>SFX\Paper\pickup\pickup-003_10C4C929.wem</Path>
+						</File>
+						<File Id="272592884" Language="SFX">
+							<ShortName>Paper\pickup\pickup-001.wav</ShortName>
+							<Path>SFX\Paper\pickup\pickup-001_10C4C929.wem</Path>
+						</File>
+						<File Id="656304656" Language="SFX">
+							<ShortName>Paper\pickup\pickup-002.wav</ShortName>
+							<Path>SFX\Paper\pickup\pickup-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="154466876" Name="paperputdown" ObjectPath="\Events\Default Work Unit\paper\paperputdown" DurationType="OneShot" DurationMin="1.367007" DurationMax="1.647574">
+					<IncludedMemoryFiles>
+						<File Id="284091102" Language="SFX">
+							<ShortName>Paper\putdown\putdown-002.wav</ShortName>
+							<Path>SFX\Paper\putdown\putdown-002_10C4C929.wem</Path>
+						</File>
+						<File Id="503020203" Language="SFX">
+							<ShortName>Paper\putdown\putdown-001.wav</ShortName>
+							<Path>SFX\Paper\putdown\putdown-001_10C4C929.wem</Path>
+						</File>
+						<File Id="666069906" Language="SFX">
+							<ShortName>Paper\putdown\putdown-003.wav</ShortName>
+							<Path>SFX\Paper\putdown\putdown-003_10C4C929.wem</Path>
+						</File>
+						<File Id="754200927" Language="SFX">
+							<ShortName>Paper\putdown\putdown-004.wav</ShortName>
+							<Path>SFX\Paper\putdown\putdown-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2468841472" Name="stabknife" ObjectPath="\Events\Default Work Unit\knife\stabknife" DurationType="OneShot" DurationMin="1.161490" DurationMax="1.415401">
 					<IncludedMemoryFiles>
 						<File Id="637947754" Language="SFX">
 							<ShortName>stab\stab-003.wav</ShortName>
@@ -191,6 +227,37 @@
 						<File Id="953523439" Language="SFX">
 							<ShortName>stab\stab-001.wav</ShortName>
 							<Path>SFX\stab\stab-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{E03C72D0-1D0D-493A-B9C8-B7280CD9FD78}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E03C72D0-1D0D-493A-B9C8-B7280CD9FD78}">
+							<Media>
+								<File Id="953523439"/>
+								<File Id="751797262"/>
+								<File Id="637947754"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1425765504" Name="swishknife" ObjectPath="\Events\Default Work Unit\knife\swishknife" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2936962349" Name="turnpage" ObjectPath="\Events\Default Work Unit\paper\turnpage" DurationType="OneShot" DurationMin="1.397506" DurationMax="1.927029">
+					<IncludedMemoryFiles>
+						<File Id="354130268" Language="SFX">
+							<ShortName>Paper\pageturning\pageturning-003.wav</ShortName>
+							<Path>SFX\Paper\pageturning\pageturning-003_10C4C929.wem</Path>
+						</File>
+						<File Id="559222334" Language="SFX">
+							<ShortName>Paper\pageturning\pageturning-001.wav</ShortName>
+							<Path>SFX\Paper\pageturning\pageturning-001_10C4C929.wem</Path>
+						</File>
+						<File Id="726650198" Language="SFX">
+							<ShortName>Paper\pageturning\pageturning-002.wav</ShortName>
+							<Path>SFX\Paper\pageturning\pageturning-002_10C4C929.wem</Path>
+						</File>
+						<File Id="1005660588" Language="SFX">
+							<ShortName>Paper\pageturning\pageturning-004.wav</ShortName>
+							<Path>SFX\Paper\pageturning\pageturning-004_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -229,6 +296,7 @@
 						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Materials\Concrete"/>
 						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\Materials\Carpet"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Materials\Wood"/>
+						<Switch Id="1153642577" Name="flesh" ObjectPath="\Switches\Default Work Unit\Materials\flesh"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>

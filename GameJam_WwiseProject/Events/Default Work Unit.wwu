@@ -103,17 +103,59 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="stab" ID="{DC0D17CF-FA07-41F7-ABFF-E6FB86ACB93A}">
+				<Folder Name="paper" ID="{4DD42DAB-C5BF-40D8-BD9D-F37F44430FE9}" ShortID="376207167">
 					<ChildrenList>
-						<Action Name="" ID="{7B6D9A35-239D-4FA1-BC1E-3FA12BA58153}" ShortID="921759700">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="stab" ID="{FE419710-B492-4F4B-98C7-5C2849A19256}" WorkUnitID="{29412349-8E05-4CE5-BD9F-E954585D7269}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="paperpickup" ID="{51F5B300-8D21-416B-A47C-A18D02D8C8FB}">
+							<ChildrenList>
+								<Action Name="" ID="{3188ABC1-3F6E-4599-AF4A-DFE537275B87}" ShortID="511042229">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pickup" ID="{9FC4BD9B-3712-46FC-A74D-BA842A3AC10C}" WorkUnitID="{29412349-8E05-4CE5-BD9F-E954585D7269}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="paperputdown" ID="{D77D64A1-52E6-48DF-8EA9-0A1D1AC78AE6}">
+							<ChildrenList>
+								<Action Name="" ID="{1A698690-073A-4A93-A14B-E7749F00EB8E}" ShortID="742753892">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="putdown" ID="{917BAC32-FC33-4FEE-9094-1025B94CF292}" WorkUnitID="{29412349-8E05-4CE5-BD9F-E954585D7269}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="turnpage" ID="{75729FDC-264E-4599-A52C-C5FDBCCE015F}">
+							<ChildrenList>
+								<Action Name="" ID="{AB4AA18F-E90E-4BA5-A267-B95F1613AD4D}" ShortID="1063527705">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pageturning" ID="{6E657810-F050-418D-950C-F4174D865D2B}" WorkUnitID="{29412349-8E05-4CE5-BD9F-E954585D7269}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="knife" ID="{BC67629F-0E3B-457F-B5FF-B7AD6991205E}" ShortID="91107578">
+					<ChildrenList>
+						<Event Name="stabknife" ID="{702052BF-4958-408E-B5D9-E2FFCE45F3CE}">
+							<ChildrenList>
+								<Action Name="" ID="{0A1D583C-8A7C-4878-B9F2-8B3A435F65EB}" ShortID="460288624">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="stab" ID="{CC4E420E-5DEA-42DA-8646-ECACBDA442B1}" WorkUnitID="{29412349-8E05-4CE5-BD9F-E954585D7269}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="swishknife" ID="{917AA94A-C873-45D5-A09F-EA114AF6C5D8}"/>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

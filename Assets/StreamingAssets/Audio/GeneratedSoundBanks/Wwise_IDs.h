@@ -19,7 +19,11 @@ namespace AK
         static const AkUniqueID FOOT_PLAYER = 1894362767U;
         static const AkUniqueID GASP = 1004479608U;
         static const AkUniqueID LAUGHTER = 1097468465U;
-        static const AkUniqueID STAB = 553997889U;
+        static const AkUniqueID PAPERPICKUP = 4209927537U;
+        static const AkUniqueID PAPERPUTDOWN = 154466876U;
+        static const AkUniqueID STABKNIFE = 2468841472U;
+        static const AkUniqueID SWISHKNIFE = 1425765504U;
+        static const AkUniqueID TURNPAGE = 2936962349U;
         static const AkUniqueID UIHOVER = 199363535U;
         static const AkUniqueID UISELECT = 1816659375U;
     } // namespace EVENTS
@@ -34,6 +38,7 @@ namespace AK
             {
                 static const AkUniqueID CARPET = 2412606308U;
                 static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID FLESH = 1153642577U;
                 static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace MATERIALS

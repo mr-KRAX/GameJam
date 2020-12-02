@@ -1,12 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	154466876	paperputdown			\Default Work Unit\paper\paperputdown	
 	199363535	UIHover			\Default Work Unit\UI\UIHover	
-	553997889	stab			\Default Work Unit\stab	
 	1004479608	Gasp			\Default Work Unit\Crowd\Gasp	
 	1097468465	Laughter			\Default Work Unit\Crowd\Laughter	
 	1383581158	AnswerWrong			\Default Work Unit\Quiz\AnswerWrong	
+	1425765504	swishknife			\Default Work Unit\knife\swishknife	
 	1816659375	UISelect			\Default Work Unit\UI\UISelect	
 	1894362767	Foot_Player			\Default Work Unit\Foot_Player	
+	2468841472	stabknife			\Default Work Unit\knife\stabknife	
+	2936962349	turnpage			\Default Work Unit\paper\turnpage	
 	4141430720	Cheer			\Default Work Unit\Crowd\Cheer	
+	4209927537	paperpickup			\Default Work Unit\paper\paperpickup	
 	4230375851	AnswerRight			\Default Work Unit\Quiz\AnswerRight	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -14,6 +18,7 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 
 Switch	ID	Name	Switch Group			Notes
 	841620460	Concrete	Materials			
+	1153642577	flesh	Materials			
 	2058049674	Wood	Materials			
 	2412606308	Carpet	Materials			
 
@@ -21,25 +26,35 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23129057	fs_carpet-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\carpet\fs_carpet-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-003		196216
 	103108841	Laughter-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Laughter\Laughter-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Laughter\Laughter-003		961068
 	124671959	fs_wood-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-004		221856
+	175158082	pickup-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pickup\pickup-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pickup\pickup-003		237236
 	191438108	Laughter-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Laughter\Laughter-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Laughter\Laughter-001		906896
 	231076949	fs_wood-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-002		230280
 	264173013	fs_concrete_005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_005		210420
+	272592884	pickup-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pickup\pickup-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pickup\pickup-001		243304
+	284091102	putdown-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\putdown\putdown-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\putdown\putdown-002		267448
 	301825278	fs_concrete_003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_003		201772
+	354130268	pageturning-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pageturning\pageturning-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pageturning\pageturning-003		284528
 	363305343	gasp-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Gasp\gasp-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Gasp\gasp-001		376796
 	397308475	UI_Hover	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\UI\UI_Hover\UI_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Hover		180240
 	420837309	CrowdCheer-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Cheer\CrowdCheer-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Cheer\CrowdCheer-003		1509796
 	436781130	gasp-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Gasp\gasp-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Gasp\gasp-003		291320
 	442549924	fs_carpet-005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\carpet\fs_carpet-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-005		215596
 	475397973	fs_wood-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-003		225144
+	503020203	putdown-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\putdown\putdown-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\putdown\putdown-001		290696
+	559222334	pageturning-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pageturning\pageturning-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pageturning\pageturning-001		246584
 	611622974	UI_select-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\UI\UI_select\UI_select-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_select\UI_select-002		194176
-	637947754	stab-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\stab\stab-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stab\stab-003		206376
+	637947754	stab-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\stab\stab-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\knife\stab\impact\stab-003		206376
 	650741517	UI_select-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\UI\UI_select\UI_select-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_select\UI_select-003		189116
 	655261759	CrowdCheer-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Cheer\CrowdCheer-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Cheer\CrowdCheer-002		1280728
+	656304656	pickup-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pickup\pickup-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pickup\pickup-002		240752
+	666069906	putdown-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\putdown\putdown-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\putdown\putdown-003		241204
 	683403168	fs_carpet-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\carpet\fs_carpet-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-002		202372
+	726650198	pageturning-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pageturning\pageturning-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pageturning\pageturning-002		251644
 	735135065	RightAnswer	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Quiz\RightAnswer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Quiz\RightAnswer		433972
 	749357755	fs_carpet-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\carpet\fs_carpet-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-001		205316
 	751644510	Laughter-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Laughter\Laughter-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Laughter\Laughter-002		917404
-	751797262	stab-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\stab\stab-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stab\stab-002		218420
+	751797262	stab-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\stab\stab-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\knife\stab\impact\stab-002		218420
+	754200927	putdown-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\putdown\putdown-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\putdown\putdown-004		258580
 	759723383	fs_carpet-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\carpet\fs_carpet-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\carpet\fs_carpet-004		205348
 	761654058	UI_select-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\UI\UI_select\UI_select-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_select\UI_select-001		190380
 	854819160	fs_concrete_002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_002		203392
@@ -47,9 +62,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	878497001	CrowdCheer-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Cheer\CrowdCheer-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Cheer\CrowdCheer-001		1513576
 	905285825	fs_wood-005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-005		218604
 	942021867	fs_wood-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-001		235440
-	953523439	stab-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\stab\stab-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stab\stab-001		248016
+	953523439	stab-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\stab\stab-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\knife\stab\impact\stab-001		248016
 	969311148	UI_select-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\UI\UI_select\UI_select-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_select\UI_select-004		187216
 	1001610876	CrowdCheer-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Cheer\CrowdCheer-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Cheer\CrowdCheer-004		328812
+	1005660588	pageturning-004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pageturning\pageturning-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pageturning\pageturning-004		339992
 	1018317239	WrongAnswer	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Quiz\WrongAnswer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Quiz\WrongAnswer		328812
 	1020413822	gasp-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Gasp\gasp-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Gasp\gasp-002		359880
 

@@ -5,13 +5,17 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{285B21FB-2FA9-49C0-B169-00E68B956722}">
 					<ObjectInclusionList>
-						<ObjectRef Name="stab" ID="{DC0D17CF-FA07-41F7-ABFF-E6FB86ACB93A}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="stabknife" ID="{702052BF-4958-408E-B5D9-E2FFCE45F3CE}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="paperpickup" ID="{51F5B300-8D21-416B-A47C-A18D02D8C8FB}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Laughter" ID="{7A6E9F37-7563-424A-A15D-25CCEB488BA8}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AnswerWrong" ID="{140C1147-0721-42E1-B1CB-65C1929C7F8F}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UIHover" ID="{3090D978-DF0A-43C3-ADF5-FEA5DD5A83D7}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UISelect" ID="{D4732DED-9DA8-43F9-B84E-1EFC7BDE8E3A}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="turnpage" ID="{75729FDC-264E-4599-A52C-C5FDBCCE015F}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="swishknife" ID="{917AA94A-C873-45D5-A09F-EA114AF6C5D8}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Gasp" ID="{A3D2D8BB-3E3F-466C-9768-354B29443449}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="AnswerRight" ID="{8A5D5CA5-99A8-48C1-A9FA-00E349F0E351}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="paperputdown" ID="{D77D64A1-52E6-48DF-8EA9-0A1D1AC78AE6}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cheer" ID="{3A5D28D6-CD1C-4905-901E-E7E392337127}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Foot_Player" ID="{E61DF6EC-75EF-4B3E-93C2-1660C9DF0E31}" WorkUnitID="{AD320FBC-BA46-4153-845D-0831A8D2B4EA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

@@ -903,32 +903,9 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<RandomSequenceContainer Name="stab" ID="{FE419710-B492-4F4B-98C7-5C2849A19256}" ShortID="800523080">
-					<PropertyList>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{5C818556-9652-4A61-8BC0-FE93C1678882}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="6"/>
-											<Property Name="Min" Type="Real64" Value="-6"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Paper" ID="{7B9769CA-4476-4151-8B58-70DE8FD11460}" ShortID="303215575">
 					<ChildrenList>
-						<Sound Name="stab-001" ID="{37E7DBE4-F3DF-47E6-9862-1EF200C7C4CF}" ShortID="979912453">
+						<RandomSequenceContainer Name="pageturning" ID="{6E657810-F050-418D-950C-F4174D865D2B}" ShortID="429735209">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
@@ -938,19 +915,97 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="stab-001" ID="{6C1CA484-4562-4797-B136-447F0B2CECC0}">
-									<Language>SFX</Language>
-									<AudioFile>stab\stab-001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="953523439"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="pageturning-001" ID="{978911A3-9F9C-414E-84E6-D6FD868E390E}" ShortID="164508085">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pageturning-001" ID="{63596AEF-776B-416D-8609-6430C393FE0C}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pageturning\pageturning-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="559222334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pageturning-001" ID="{63596AEF-776B-416D-8609-6430C393FE0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pageturning-002" ID="{AC6185E3-31AD-4297-A9CF-D99E8F442D76}" ShortID="761180531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pageturning-002" ID="{EF356BFA-8D69-4876-8D29-F96EFDD1C61B}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pageturning\pageturning-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="726650198"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pageturning-002" ID="{EF356BFA-8D69-4876-8D29-F96EFDD1C61B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pageturning-003" ID="{1318020C-F4B9-4F7D-94B4-FBF551470AD1}" ShortID="777568410">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pageturning-003" ID="{994BA881-AB10-4DD9-BCFA-2CDF2C9ACC96}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pageturning\pageturning-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="354130268"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pageturning-003" ID="{994BA881-AB10-4DD9-BCFA-2CDF2C9ACC96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pageturning-004" ID="{F0E918FA-B1A1-4761-BB9B-9D9017617285}" ShortID="679428874">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pageturning-004" ID="{140E0AFC-0E68-4B1E-B728-ED38E3CA9A2A}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pageturning\pageturning-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1005660588"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pageturning-004" ID="{140E0AFC-0E68-4B1E-B728-ED38E3CA9A2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="stab-001" ID="{6C1CA484-4562-4797-B136-447F0B2CECC0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="stab-002" ID="{726EE27A-DB5C-4422-B44E-33DC6F9EB612}" ShortID="1048680131">
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="pickup" ID="{9FC4BD9B-3712-46FC-A74D-BA842A3AC10C}" ShortID="926514515">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
@@ -960,19 +1015,75 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="stab-002" ID="{8F771D8A-8475-4CD1-9A2F-81AF192EECD2}">
-									<Language>SFX</Language>
-									<AudioFile>stab\stab-002.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="751797262"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="pickup-001" ID="{62A2B050-5AFB-4F81-A8D9-FB237928C926}" ShortID="289741781">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pickup-001" ID="{3E812166-A500-4152-A3AD-187F6383F48D}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pickup\pickup-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="272592884"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pickup-001" ID="{3E812166-A500-4152-A3AD-187F6383F48D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pickup-002" ID="{D2456632-53ED-4AAD-8BF1-71F3FE33AD26}" ShortID="215878912">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pickup-002" ID="{5FA27C4B-4F65-430B-8C21-1E35366E944A}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pickup\pickup-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="656304656"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pickup-002" ID="{5FA27C4B-4F65-430B-8C21-1E35366E944A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="pickup-003" ID="{1B1D794D-A523-423A-B362-12FF75235DAE}" ShortID="1046659056">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="pickup-003" ID="{D0DEA691-538F-42AF-8EC4-FE48F3AFC6BA}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\pickup\pickup-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175158082"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="pickup-003" ID="{D0DEA691-538F-42AF-8EC4-FE48F3AFC6BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="stab-002" ID="{8F771D8A-8475-4CD1-9A2F-81AF192EECD2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="stab-003" ID="{F4B208DE-C907-460C-982E-7C2E950AE85C}" ShortID="1035999559">
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="putdown" ID="{917BAC32-FC33-4FEE-9094-1025B94CF292}" ShortID="311233338">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
@@ -982,20 +1093,321 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="stab-003" ID="{4E64FB09-8002-49A1-8BEE-A61312DB4578}">
-									<Language>SFX</Language>
-									<AudioFile>stab\stab-003.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="637947754"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="putdown-001" ID="{61F759C1-060C-4335-9480-1B68E3CD6136}" ShortID="87327047">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="putdown-001" ID="{AA1B6338-487B-4E4E-AFD6-FDE9D0E5A9C4}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\putdown\putdown-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="503020203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="putdown-001" ID="{AA1B6338-487B-4E4E-AFD6-FDE9D0E5A9C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="putdown-002" ID="{39EF27DD-20F0-45D6-AA5B-410821393E95}" ShortID="934736959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="putdown-002" ID="{3AE16D2A-D17E-41B2-A9F4-0BBD13265E51}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\putdown\putdown-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="284091102"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="putdown-002" ID="{3AE16D2A-D17E-41B2-A9F4-0BBD13265E51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="putdown-003" ID="{96E642CE-F94B-421D-8C6C-4DA8964201CD}" ShortID="121926748">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="putdown-003" ID="{76511E42-6559-47A6-BC41-D391D912E075}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\putdown\putdown-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="666069906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="putdown-003" ID="{76511E42-6559-47A6-BC41-D391D912E075}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="putdown-004" ID="{5358C9DE-402F-4E80-A3D7-9E9E6747698A}" ShortID="572584361">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="putdown-004" ID="{F4AA806D-9EE1-41D2-9E0F-44A2847A57E3}">
+											<Language>SFX</Language>
+											<AudioFile>Paper\putdown\putdown-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="754200927"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="putdown-004" ID="{F4AA806D-9EE1-41D2-9E0F-44A2847A57E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="stab-003" ID="{4E64FB09-8002-49A1-8BEE-A61312DB4578}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</RandomSequenceContainer>
 					</ChildrenList>
-				</RandomSequenceContainer>
+				</Folder>
+				<Folder Name="knife" ID="{49B63E73-2A74-43FD-96EF-76757D1EE100}" ShortID="318723416">
+					<ChildrenList>
+						<SwitchContainer Name="stab" ID="{CC4E420E-5DEA-42DA-8646-ECACBDA442B1}" ShortID="907603605">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DB8C57AE-776F-4846-9244-F451E7D4952E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="12"/>
+													<Property Name="Min" Type="Real64" Value="-12"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="flesh" ID="{E03C72D0-1D0D-493A-B9C8-B7280CD9FD78}" WorkUnitID="{F42F3FCD-D279-4D68-A057-A95EC6ADAE2C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Materials" ID="{B01663F0-563C-4B7C-9F47-18AAC68AD4DA}" WorkUnitID="{F42F3FCD-D279-4D68-A057-A95EC6ADAE2C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="impact" ID="{88EA6524-E8FE-446A-8F08-A03D4FE0272B}" ShortID="9690092">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="stab-001" ID="{37E7DBE4-F3DF-47E6-9862-1EF200C7C4CF}" ShortID="979912453">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="stab-001" ID="{6C1CA484-4562-4797-B136-447F0B2CECC0}">
+													<Language>SFX</Language>
+													<AudioFile>stab\stab-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953523439"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="stab-001" ID="{6C1CA484-4562-4797-B136-447F0B2CECC0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="stab-002" ID="{726EE27A-DB5C-4422-B44E-33DC6F9EB612}" ShortID="1048680131">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="stab-002" ID="{8F771D8A-8475-4CD1-9A2F-81AF192EECD2}">
+													<Language>SFX</Language>
+													<AudioFile>stab\stab-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="751797262"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="stab-002" ID="{8F771D8A-8475-4CD1-9A2F-81AF192EECD2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="stab-003" ID="{F4B208DE-C907-460C-982E-7C2E950AE85C}" ShortID="1035999559">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="stab-003" ID="{4E64FB09-8002-49A1-8BEE-A61312DB4578}">
+													<Language>SFX</Language>
+													<AudioFile>stab\stab-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="637947754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="stab-003" ID="{4E64FB09-8002-49A1-8BEE-A61312DB4578}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="impact" ID="{88EA6524-E8FE-446A-8F08-A03D4FE0272B}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="flesh" ID="{E03C72D0-1D0D-493A-B9C8-B7280CD9FD78}"/>
+										<ItemList>
+											<ItemRef Name="impact" ID="{88EA6524-E8FE-446A-8F08-A03D4FE0272B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<RandomSequenceContainer Name="knifeswish" ID="{8663FEDF-0016-450E-8504-3A915A678930}" ShortID="904259508">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{53F42228-ED8A-4C93-B49A-FBE74042CBE2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="12"/>
+													<Property Name="Min" Type="Real64" Value="-12"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="knifeswish-001" ID="{B24FF73C-72A3-4866-9F10-8F92F87CD62B}" ShortID="318315499">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="knifeswish-001" ID="{3AE442F0-59B0-4716-AE1C-BA8FA4E20C92}">
+											<Language>SFX</Language>
+											<AudioFile>knifeswish\knifeswish-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="918931691"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="knifeswish-001" ID="{3AE442F0-59B0-4716-AE1C-BA8FA4E20C92}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="knifeswish-002" ID="{911B94C5-38DF-4A0A-893E-42FA1394ABA5}" ShortID="416313765">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="knifeswish-002" ID="{599403CB-ACF1-4E05-AD00-01BF46EF5497}">
+											<Language>SFX</Language>
+											<AudioFile>knifeswish\knifeswish-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214319462"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="knifeswish-002" ID="{599403CB-ACF1-4E05-AD00-01BF46EF5497}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="knifeswish-003" ID="{B102C2B3-69B8-467B-842D-83C2D110CD0F}" ShortID="169059712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="knifeswish-003" ID="{2FADD0D1-F895-44AB-A84D-5C89F88CF5E0}">
+											<Language>SFX</Language>
+											<AudioFile>knifeswish\knifeswish-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="33714379"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="knifeswish-003" ID="{2FADD0D1-F895-44AB-A84D-5C89F88CF5E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
