@@ -8,6 +8,7 @@
 						<Switch Name="Concrete" ID="{65BA9092-C39E-4810-B053-49667239A025}"/>
 						<Switch Name="Carpet" ID="{1F18CF86-F831-4E93-A6B8-AADE19A1A332}"/>
 						<Switch Name="Wood" ID="{EDD99172-A177-4DDA-8878-263BF5FE029A}"/>
+						<Switch Name="flesh" ID="{E03C72D0-1D0D-493A-B9C8-B7280CD9FD78}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
