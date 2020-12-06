@@ -63,5 +63,4 @@ crashlytics-build.properties
 !*.obj
 
 # Wwise
-/pathToWwiseProject/Originals/SFX/*.akd
-/pathToWwiseProject/.cache/
+/GameJam_WwiseProject/.cache/
