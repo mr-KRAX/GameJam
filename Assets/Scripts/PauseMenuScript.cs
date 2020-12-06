@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuScript : MonoBehaviour {
 
@@ -23,10 +24,27 @@ public class PauseMenuScript : MonoBehaviour {
     Resume();
   }
 
+  public void OnClick_OptionsButton() {
+    //Open Options 
+    //pauseMenuUI.SetActive(false);
+    //optionsMenuUI.SetActive(true);
+  }
+
+  public string sceneLoadedOnQuit; // Main scene name 
   public void OnClick_QuitButton() {
     //Load StartMenu scene
+    SceneManager.LoadScene(sceneLoadedOnQuit);
   }
   #endregion Pause menu behavior
+
+  #region Options menu behavior
+  /**
+   * Options menu
+   */
+  public GameObject optionsMenuUI;
+
+  // TODO: options menu
+  #endregion Oprions menu behavior
 
   void Pause() {
     pauseMenuUI.SetActive(true);

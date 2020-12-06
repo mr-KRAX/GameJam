@@ -9,14 +9,14 @@ public class StartMenuScript : MonoBehaviour {
   /**
    * Main menu
    */
-  public GameObject mainMenue;
+  public GameObject mainMenueUI;
   public void OnClick_PlayButton() {
     SceneManager.LoadScene(sceneLoadedOnPlay);
   }
 
   public void OnClick_OptionsButton() {
-    mainMenue.SetActive(false);
-    optionsMenu.SetActive(true);
+    mainMenueUI.SetActive(false);
+    optionsMenuUI.SetActive(true);
   }
 
   public void OnClick_CreditsButton() {
@@ -33,10 +33,10 @@ public class StartMenuScript : MonoBehaviour {
   /**
    * Options menu
    */
-  public GameObject optionsMenu;
+  public GameObject optionsMenuUI;
   public void OnClick_BackButton() {
-    optionsMenu.SetActive(false);
-    mainMenue.SetActive(true);
+    optionsMenuUI.SetActive(false);
+    mainMenueUI.SetActive(true);
   }
   #endregion Options menu behavior
 }
