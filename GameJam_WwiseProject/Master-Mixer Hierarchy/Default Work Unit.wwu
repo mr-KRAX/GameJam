@@ -9,6 +9,34 @@
 							<ObjectRef Name="System" ID="{D5A82378-E859-4700-BB57-E40D97AF3839}" WorkUnitID="{4F8B0A38-A34E-4254-85A3-1801DE756554}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environmental" ID="{5B1B10D4-060C-4819-9215-1268FD084600}">
+							<ChildrenList>
+								<Bus Name="SFX" ID="{40A297A6-BD90-4143-B5A4-A8D3A0016E34}"/>
+								<AuxBus Name="env_bathroom" ID="{536C4CCE-863E-41F7-B057-42C98774D772}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="env_mainhall" ID="{A6472D39-B7B4-4D19-8E45-19F34282E892}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="env_studio" ID="{005F91E2-F9DF-48FA-B0B8-8E75ABF5B937}">
+									<ReferenceList>
+										<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
