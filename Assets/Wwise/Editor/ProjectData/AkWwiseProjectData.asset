@@ -12,14 +12,385 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227e9de730e9beb47b7644df525239ac, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: fe8480aab356eb4c936bca2ccc907416
+    GuidInternal: 
+    m_lastTime: -8585941781037390001
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 781aabe0e7e3834daf6748b62acff754
+    GuidInternal: 
+    m_lastTime: -8585941781045668964
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6e511e70dd305b4c8f918fe9a4abaed2
+    GuidInternal: 
+    m_lastTime: -8585941781037469995
+    List:
+    - name: Main
+      guid: fb215b28a92fc049b16900e68b956722
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: bc0f32ad46ba5341845d0831a8d2b4ea
+    GuidInternal: 
+    m_lastTime: -8585941781048415972
+    List:
+    - name: AnswerRight
+      guid: a55c5d8aa899c148a9fa00e349f0e351
+      id: 4230375851
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quiz
+        ObjectType: 4
+      - ElementName: AnswerRight
+        ObjectType: 3
+      Path: Default Work Unit\Quiz\AnswerRight
+      maxAttenuation: 0
+      maxDuration: 2.459796
+      minDuration: 2.459796
+    - name: AnswerWrong
+      guid: 47110c142107e142b1cb65c1929c7f8f
+      id: 1383581158
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quiz
+        ObjectType: 4
+      - ElementName: AnswerWrong
+        ObjectType: 3
+      Path: Default Work Unit\Quiz\AnswerWrong
+      maxAttenuation: 0
+      maxDuration: 1.863651
+      minDuration: 1.863651
+    - name: Cheer
+      guid: d6285d3a1ccd0549901ee7e392337127
+      id: 4141430720
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 4
+      - ElementName: Cheer
+        ObjectType: 3
+      Path: Default Work Unit\Crowd\Cheer
+      maxAttenuation: 0
+      maxDuration: 8.58
+      minDuration: 1.863651
+    - name: Crowd
+      guid: af240d87b51934449d69eebf0b1cf5b4
+      id: 2848349012
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 4
+      Path: Default Work Unit\Crowd
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foot_Player
+      guid: ecf61de6ef753e4b93c21660c9df0e31
+      id: 1894362767
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Foot_Player
+        ObjectType: 3
+      Path: Default Work Unit\Foot_Player
+      maxAttenuation: 0
+      maxDuration: 1.338964
+      minDuration: 1.108126
+    - name: Gasp
+      guid: bbd8d2a33f3e6c469768354b29443449
+      id: 1004479608
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 4
+      - ElementName: Gasp
+        ObjectType: 3
+      Path: Default Work Unit\Crowd\Gasp
+      maxAttenuation: 0
+      maxDuration: 2.135669
+      minDuration: 1.651111
+    - name: knife
+      guid: 9f6267bc3b0e7f45b5ffb7ad6991205e
+      id: 3312069844
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: knife
+        ObjectType: 4
+      Path: Default Work Unit\knife
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Laughter
+      guid: 379f6e7a63754a42a15d25cceb488ba8
+      id: 1097468465
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Crowd
+        ObjectType: 4
+      - ElementName: Laughter
+        ObjectType: 3
+      Path: Default Work Unit\Crowd\Laughter
+      maxAttenuation: 0
+      maxDuration: 5.447868
+      minDuration: 5.140771
+    - name: paper
+      guid: ab2dd44dbfc5d840bd9df37f44430fe9
+      id: 3126687001
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: paper
+        ObjectType: 4
+      Path: Default Work Unit\paper
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: paperpickup
+      guid: 00b3f551218d6b41a47ca18d02d8c8fb
+      id: 4209927537
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: paper
+        ObjectType: 4
+      - ElementName: paperpickup
+        ObjectType: 3
+      Path: Default Work Unit\paper\paperpickup
+      maxAttenuation: 0
+      maxDuration: 1.378912
+      minDuration: 1.344512
+    - name: paperputdown
+      guid: a1647dd7e652df488ea90a1d1ac78ae6
+      id: 154466876
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: paper
+        ObjectType: 4
+      - ElementName: paperputdown
+        ObjectType: 3
+      Path: Default Work Unit\paper\paperputdown
+      maxAttenuation: 0
+      maxDuration: 1.647574
+      minDuration: 1.367007
+    - name: Quiz
+      guid: f213dd038e0f224baa7ef04df68e0b71
+      id: 3930794390
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Quiz
+        ObjectType: 4
+      Path: Default Work Unit\Quiz
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: stabknife
+      guid: bf52207058498e40b5d9e2ffce45f3ce
+      id: 2468841472
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: knife
+        ObjectType: 4
+      - ElementName: stabknife
+        ObjectType: 3
+      Path: Default Work Unit\knife\stabknife
+      maxAttenuation: 0
+      maxDuration: 1.415401
+      minDuration: 1.16149
+    - name: swishknife
+      guid: 4aa97a9173c8d545a09fea114af6c5d8
+      id: 1425765504
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: knife
+        ObjectType: 4
+      - ElementName: swishknife
+        ObjectType: 3
+      Path: Default Work Unit\knife\swishknife
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: turnpage
+      guid: dc9f72754e269945a52cc5fdbcce015f
+      id: 2936962349
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: paper
+        ObjectType: 4
+      - ElementName: turnpage
+        ObjectType: 3
+      Path: Default Work Unit\paper\turnpage
+      maxAttenuation: 0
+      maxDuration: 1.927029
+      minDuration: 1.397506
+    - name: UI
+      guid: 148d9cd2c0c15249a5e9730858f26dea
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      Path: Default Work Unit\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UIHover
+      guid: 78d990300adfc343adf5fea5dd5a83d7
+      id: 199363535
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UIHover
+        ObjectType: 3
+      Path: Default Work Unit\UI\UIHover
+      maxAttenuation: 0
+      maxDuration: 1.021406
+      minDuration: 1.021406
+    - name: UISelect
+      guid: ed2d73d4a89df943b84e1efc7bde8e3a
+      id: 1816659375
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: UISelect
+        ObjectType: 3
+      Path: Default Work Unit\UI\UISelect
+      maxAttenuation: 0
+      maxDuration: 1.104228
+      minDuration: 1.057282
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 3c004adff330cb4ca8ec8ad3e699e526
+    GuidInternal: 
+    m_lastTime: -8585941781048386045
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 790bdc0f92ea9c4385123b78609977bc
+    GuidInternal: 
+    m_lastTime: -8585941781037440087
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: cd3f2ff479d2684da057a95ec6adae2c
+    GuidInternal: 
+    m_lastTime: -8585941781037419812
+    List:
+    - name: Materials
+      guid: f06316b03c567c4b9f4718aac68ad4da
+      id: 4050929301
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Materials
+        ObjectType: 11
+      Path: Default Work Unit\Materials
+      values:
+      - name: Carpet
+        guid: 86cf181f31f8934ea6b8aade19a1a332
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: Carpet
+          ObjectType: 10
+      - name: Concrete
+        guid: 9290ba659ec31048b05349667239a025
+        id: 841620460
+        PathAndIcons:
+        - ElementName: Concrete
+          ObjectType: 10
+      - name: flesh
+        guid: d0723ce00d1d3a49b9c8b7280cd9fd78
+        id: 1153642577
+        PathAndIcons:
+        - ElementName: flesh
+          ObjectType: 10
+      - name: Wood
+        guid: 7291d9ed77a1da4d8878263bf5fe029a
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6d0e2ef3a0d16347a09e8190df754c40
+    GuidInternal: 
+    m_lastTime: -8585941781037400195
+    List: []
+  ExpandedItems:
+  - /GameJam_WwiseProject
+  - /GameJam_WwiseProject/Switches
+  - /GameJam_WwiseProject/Switches/Default Work Unit
+  - /GameJam_WwiseProject/Switches/Default Work Unit/Materials
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
