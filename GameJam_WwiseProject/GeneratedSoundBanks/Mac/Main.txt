@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1004479608	Gasp			\Default Work Unit\Crowd\Gasp	
 	1097468465	Laughter			\Default Work Unit\Crowd\Laughter	
 	1383581158	AnswerWrong			\Default Work Unit\Quiz\AnswerWrong	
+	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
 	1425765504	swishknife			\Default Work Unit\knife\swishknife	
 	1816659375	UISelect			\Default Work Unit\UI\UISelect	
 	1894362767	Foot_Player			\Default Work Unit\Foot_Player	
@@ -30,6 +31,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	191438108	Laughter-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Laughter\Laughter-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Laughter\Laughter-001		906896
 	231076949	fs_wood-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-002		230280
 	264173013	fs_concrete_005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_005		210420
+	264833536	door-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\door\door-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\door\door-001		254080
+	269484815	door-003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\door\door-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\door\door-003		254216
 	272592884	pickup-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\pickup\pickup-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\pickup\pickup-001		243304
 	284091102	putdown-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Paper\putdown\putdown-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Paper\putdown\putdown-002		267448
 	301825278	fs_concrete_003	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_003		201772
@@ -59,6 +62,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	761654058	UI_select-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\UI\UI_select\UI_select-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_select\UI_select-001		190380
 	854819160	fs_concrete_002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_002		203392
 	873499890	fs_concrete_004	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\concretefootsteps\concretefootstep-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\concrete\fs_concrete_004		202080
+	876801687	door-002	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\door\door-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\door\door-002		282304
 	878497001	CrowdCheer-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\Crowd\Cheer\CrowdCheer-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Crowd\Cheer\CrowdCheer-001		1513576
 	905285825	fs_wood-005	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-005		218604
 	942021867	fs_wood-001	D:\Projects\GitHubRepository\GameJam\GameJam_WwiseProject\.cache\Mac\SFX\footsteps\wood\fs_wood-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\wood\fs_wood-001		235440

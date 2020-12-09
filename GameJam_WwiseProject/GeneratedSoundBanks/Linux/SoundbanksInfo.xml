@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4068446243">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4279154173">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -54,6 +54,22 @@
 						<File Id="1001610876" Language="SFX">
 							<ShortName>Crowd\Cheer\CrowdCheer-004.wav</ShortName>
 							<Path>SFX\Crowd\Cheer\CrowdCheer-004_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="1.420175" DurationMax="1.622335">
+					<IncludedMemoryFiles>
+						<File Id="264833536" Language="SFX">
+							<ShortName>door\door-001.wav</ShortName>
+							<Path>SFX\door\door-001_10C4C929.wem</Path>
+						</File>
+						<File Id="269484815" Language="SFX">
+							<ShortName>door\door-003.wav</ShortName>
+							<Path>SFX\door\door-003_10C4C929.wem</Path>
+						</File>
+						<File Id="876801687" Language="SFX">
+							<ShortName>door\door-002.wav</ShortName>
+							<Path>SFX\door\door-002_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

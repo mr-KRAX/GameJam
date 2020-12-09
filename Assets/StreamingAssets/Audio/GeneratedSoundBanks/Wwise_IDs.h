@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID ANSWERRIGHT = 4230375851U;
         static const AkUniqueID ANSWERWRONG = 1383581158U;
         static const AkUniqueID CHEER = 4141430720U;
+        static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID FOOT_PLAYER = 1894362767U;
         static const AkUniqueID GASP = 1004479608U;
         static const AkUniqueID LAUGHTER = 1097468465U;

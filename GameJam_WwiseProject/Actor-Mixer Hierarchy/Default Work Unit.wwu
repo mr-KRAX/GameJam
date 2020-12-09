@@ -1408,6 +1408,99 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="door" ID="{20CE3C00-906A-4B7F-9F56-B6964E2407E0}" ShortID="334206588">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DE7F266D-3247-42E7-83F8-D62D5895D655}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="24"/>
+											<Property Name="Min" Type="Real64" Value="-24"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="door-001" ID="{F4680A01-2C4E-4508-A5E4-0A26CE137DEB}" ShortID="754653812">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="door-001" ID="{871E3AC8-DE5D-4F1B-8C56-89D1F96F61CF}">
+									<Language>SFX</Language>
+									<AudioFile>door\door-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="264833536"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="door-001" ID="{871E3AC8-DE5D-4F1B-8C56-89D1F96F61CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="door-002" ID="{618579AB-396A-4742-AF28-96EB724A20AC}" ShortID="1036250703">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="door-002" ID="{524CF08B-A7EB-4BD0-B283-5AD2B8C5FAB6}">
+									<Language>SFX</Language>
+									<AudioFile>door\door-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="876801687"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="door-002" ID="{524CF08B-A7EB-4BD0-B283-5AD2B8C5FAB6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="door-003" ID="{25A9E36B-B162-4736-8A32-58564533A879}" ShortID="582071960">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B2305794-1CB5-4677-A204-1FBA4E27A0CD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E0AB1A78-E3E7-4D83-AF67-48B62ACFF754}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="door-003" ID="{DB01D1E6-1057-4ABE-84AF-25560574343D}">
+									<Language>SFX</Language>
+									<AudioFile>door\door-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="269484815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="door-003" ID="{DB01D1E6-1057-4ABE-84AF-25560574343D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
