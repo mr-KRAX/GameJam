@@ -32,6 +32,56 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585940870276158372
     List:
+    - name: env_bathroom
+      guid: ce4c6c533e86f741b05742c98774d772
+      id: 2898881535
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environmental
+        ObjectType: 2
+      - ElementName: env_bathroom
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Environmental\env_bathroom
+    - name: env_mainhall
+      guid: 392d47a6b4b7194d8e4519f34282e892
+      id: 2799008491
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environmental
+        ObjectType: 2
+      - ElementName: env_mainhall
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Environmental\env_mainhall
+    - name: env_studio
+      guid: e2915f00dff9fa48b0b88e75abf5b937
+      id: 3665558831
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environmental
+        ObjectType: 2
+      - ElementName: env_studio
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Environmental\env_studio
+    - name: Environmental
+      guid: d4101b5b0c06194892151268fd084600
+      id: 1973600711
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environmental
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Environmental
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -41,6 +91,19 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
       Path: Default Work Unit\Master Audio Bus
+    - name: SFX
+      guid: a697a24090bd4341b5a4a8d3a0016e34
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environmental
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Environmental\SFX
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -392,5 +455,12 @@ MonoBehaviour:
   - /GameJam_WwiseProject/Events
   - /GameJam_WwiseProject/Events/Default Work Unit
   - /GameJam_WwiseProject/Events/Default Work Unit/Quiz
+  - /GameJam_WwiseProject/Auxiliary Busses
+  - /GameJam_WwiseProject/Auxiliary Busses/Default Work Unit
+  - /GameJam_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
+  - /GameJam_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus/Environmental
+  - /GameJam_WwiseProject/Switches
+  - /GameJam_WwiseProject/Switches/Default Work Unit
+  - /GameJam_WwiseProject/Switches/Default Work Unit/Materials
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
