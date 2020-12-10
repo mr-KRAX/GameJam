@@ -136,8 +136,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 67523282}
-  - component: {fileID: 67523283}
   - component: {fileID: 67523284}
+  - component: {fileID: 67523283}
   m_Layer: 0
   m_Name: WC
   m_TagString: Untagged
@@ -161,32 +161,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &67523283
-BoxCollider2D:
+--- !u!65 &67523283
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67523281}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.132061, y: 0.44896126}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.503868, y: 10.348965}
-  m_EdgeRadius: 0
+  m_Size: {x: 8.581772, y: 8.879936, z: 1}
+  m_Center: {x: 0.12778473, y: 0.021308899, z: 0}
 --- !u!114 &67523284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1110,8 +1097,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 867511546}
-  - component: {fileID: 867511547}
   - component: {fileID: 867511548}
+  - component: {fileID: 867511547}
   m_Layer: 0
   m_Name: StageRoom
   m_TagString: Untagged
@@ -1135,32 +1122,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &867511547
-BoxCollider2D:
+--- !u!65 &867511547
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867511545}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.00009918213, y: -3.4710808}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 64.49014, y: 23.914497}
-  m_EdgeRadius: 0
+  m_Size: {x: 63.6039, y: 22.678844, z: 1}
+  m_Center: {x: 0.109861374, y: -3.750311, z: 0}
 --- !u!114 &867511548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1785,6 +1759,7 @@ GameObject:
   - component: {fileID: 1176895829}
   - component: {fileID: 1176895827}
   - component: {fileID: 1176895828}
+  - component: {fileID: 1176895830}
   m_Layer: 0
   m_Name: PlayerMain
   m_TagString: Untagged
@@ -1870,7 +1845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176895823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.515812, y: 8.770851, z: 0}
+  m_LocalPosition: {x: 4.1, y: 8.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1928,6 +1903,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1176895830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176895823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6e9d25f18e3914a86e56213a73741e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 659688ee03d4b6b4abf1b66862a9ded6,
+      type: 2}
 --- !u!1 &1178604089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,8 +1959,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202041590}
-  - component: {fileID: 1202041591}
   - component: {fileID: 1202041592}
+  - component: {fileID: 1202041591}
   m_Layer: 0
   m_Name: BathroomHall
   m_TagString: Untagged
@@ -1992,32 +1984,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1202041591
-BoxCollider2D:
+--- !u!65 &1202041591
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202041589}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.4329319, y: 0.9861202}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14.084187, y: 15.864033}
-  m_EdgeRadius: 0
+  m_Size: {x: 10.272949, y: 13.536442, z: 1}
+  m_Center: {x: -0.9452019, y: 0.33130836, z: 0}
 --- !u!114 &1202041592
 MonoBehaviour:
   m_ObjectHideFlags: 0

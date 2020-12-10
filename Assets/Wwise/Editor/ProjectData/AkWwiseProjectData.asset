@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: fe8480aab356eb4c936bca2ccc907416
     GuidInternal: 
-    m_lastTime: -8585940870273156788
+    m_lastTime: -8585940039315033917
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 781aabe0e7e3834daf6748b62acff754
     GuidInternal: 
-    m_lastTime: -8585940870276158372
+    m_lastTime: -8585939980680092845
     List:
     - name: env_bathroom
       guid: ce4c6c533e86f741b05742c98774d772
@@ -112,7 +112,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6e511e70dd305b4c8f918fe9a4abaed2
     GuidInternal: 
-    m_lastTime: -8585940799859750362
+    m_lastTime: -8585940039315123668
     List:
     - name: Main
       guid: fb215b28a92fc049b16900e68b956722
@@ -131,7 +131,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: bc0f32ad46ba5341845d0831a8d2b4ea
     GuidInternal: 
-    m_lastTime: -8585940799859790258
+    m_lastTime: -8585940039335013013
     List:
     - name: AnswerRight
       guid: a55c5d8aa899c148a9fa00e349f0e351
@@ -381,7 +381,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 3c004adff330cb4ca8ec8ad3e699e526
     GuidInternal: 
-    m_lastTime: -8585940870278869707
+    m_lastTime: -8585940039334993116
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -391,7 +391,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 790bdc0f92ea9c4385123b78609977bc
     GuidInternal: 
-    m_lastTime: -8585940870273206657
+    m_lastTime: -8585940039315093503
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -401,7 +401,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: cd3f2ff479d2684da057a95ec6adae2c
     GuidInternal: 
-    m_lastTime: -8585940870273186710
+    m_lastTime: -8585940039315073811
     List:
     - name: Materials
       guid: f06316b03c567c4b9f4718aac68ad4da
@@ -448,19 +448,12 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6d0e2ef3a0d16347a09e8190df754c40
     GuidInternal: 
-    m_lastTime: -8585940870273176733
+    m_lastTime: -8585940039315053866
     List: []
   ExpandedItems:
   - /GameJam_WwiseProject
   - /GameJam_WwiseProject/Events
   - /GameJam_WwiseProject/Events/Default Work Unit
   - /GameJam_WwiseProject/Events/Default Work Unit/Quiz
-  - /GameJam_WwiseProject/Auxiliary Busses
-  - /GameJam_WwiseProject/Auxiliary Busses/Default Work Unit
-  - /GameJam_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
-  - /GameJam_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus/Environmental
-  - /GameJam_WwiseProject/Switches
-  - /GameJam_WwiseProject/Switches/Default Work Unit
-  - /GameJam_WwiseProject/Switches/Default Work Unit/Materials
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
